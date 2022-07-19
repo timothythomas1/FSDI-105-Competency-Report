@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&family=Ubuntu:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+img{
+    width: 70px
+}
+html{
+    height: 100%;
+}
+form{
+    margin-top: 20px
+}
+body#home{
+    background-image: url("../img/wallpaperbetter.com_7680x4320\ \(3\).jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center ;
+    height: 100%;
+}
+body#register{
+    height: 100%;
+    background-image: url("../img/triMeshBrain.jpg");
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size:cover;
+    background-position:center ;
+}
+body#users{
+    background-image: url("../img/astronautLeftB&W.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center ;
+    /* padding-bottom: auto; */
+    margin-bottom: auto;
+}
+#users-table-main{
+margin: 25px;
+padding-left: 38%;
+
+}
+#txtColor{
+    height: 50px;
+}
+.display-1{
+    color: black;
+    text-align: center;
+    background-color: #FFDB58;
+    box-shadow: 0px 10px 15px 15px black;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.error-input{
+    background-color: #E5A4A4 !important;
+    color: white;
+}
+i.fa-trash-can{
+    color:red;
+}
+i.fa-pen-to-square{
+    color:green;
+}
+.action-table{
+    display:inline;
+    /* justify-content: space-between; */
+}
+.navBar{
+    display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navBar-links{
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+table {
+    table-layout: fixed;
+    border: none !important;
+}
+table td, th {
+    word-wrap: break-word;
+}
+th:first-of-type {
+    border-top-left-radius: 20px;
+}
+th:last-of-type {
+    border-top-right-radius: 20px;
+}
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 20px;
+}
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 20px;
+}
+tr{
+    text-align: center;
+}
+
+/* This code removes bottom border line */
+tr:last-child td {
+    border-bottom: none;
+}
+
+#alertError{
+    color: red;
+    text-align: center;
+    background-color: #212529;
+    width: fit-content;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 15%;
+}
+#title{
+    font-size: 40px;
+}
+/* #newUser {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
